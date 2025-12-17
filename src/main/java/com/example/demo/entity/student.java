@@ -1,7 +1,10 @@
-package com.example.project.entity;
-import java.time.LocalDate;
+package com.example.demo.entity;
+import jakarta.
+
 public class student{
-    private int id;
+    @Id
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    private Integer id;
     private String name;
     private String email;
     public int getId(){
