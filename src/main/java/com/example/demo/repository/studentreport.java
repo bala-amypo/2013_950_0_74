@@ -5,7 +5,7 @@ import org.springframework.stereotype.repository;
 
 import com.example.sql.Entitydata.Student;
 
-@repository
+@Repository
 public interface studentreport extends JpaRepository<student,Integer> {
 
     
