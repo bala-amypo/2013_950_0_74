@@ -4,8 +4,6 @@ public class student{
     private int id;
     private String name;
     private String email;
-    private LocalDate dob;
-    private float cgpa;
     public int getId(){
         return id;
     }
@@ -15,5 +13,14 @@ public class student{
     public String getName(){
         return name;
     }
-    public void setName(String name)
+    public void setName(String name){
+        this.name=name;
+    }
+    public String getEmail(){
+        return email;
+    }
+    public void setEmail(String email){
+        this.email=email;
+    }
+    
 }
