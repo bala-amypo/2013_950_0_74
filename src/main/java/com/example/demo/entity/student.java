@@ -1,6 +1,9 @@
 package com.example.demo.entity;
-import jakarta.
-
+import jakarta.persistence.entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+import jakarta.persistence.GenerationType;
+@entity
 public class student{
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
